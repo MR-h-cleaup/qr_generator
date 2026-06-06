@@ -1,0 +1,135 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - img [ref=e7]
+        - heading "QR Code Generator" [level=1] [ref=e13]
+      - button "Switch to dark mode" [ref=e14]:
+        - img [ref=e15]
+    - navigation "Wizard steps" [ref=e17]:
+      - list [ref=e18]:
+        - listitem [ref=e19]:
+          - button "1. Type" [ref=e20]
+        - listitem [ref=e22]:
+          - button "2. Data" [ref=e23]
+        - listitem [ref=e25]:
+          - button "3. Style" [disabled] [ref=e26]
+        - listitem [ref=e28]:
+          - button "4. Export" [disabled] [ref=e29]
+  - main [ref=e30]:
+    - region "Step content" [ref=e31]:
+      - generic [ref=e32]:
+        - navigation "Wizard progress" [ref=e33]:
+          - generic [ref=e34]:
+            - generic [ref=e35]: "1"
+            - generic [ref=e36]: Type
+          - generic [ref=e38]:
+            - generic [ref=e39]: "2"
+            - generic [ref=e40]: Data
+          - generic [ref=e42]:
+            - generic [ref=e43]: "3"
+            - generic [ref=e44]: Customize
+          - generic [ref=e46]:
+            - generic [ref=e47]: "4"
+            - generic [ref=e48]: Export
+        - generic [ref=e50]:
+          - generic [ref=e51]:
+            - heading "Choose QR Code Type" [level=2] [ref=e52]
+            - paragraph [ref=e53]: Select the type of content you want to encode in your QR code.
+          - generic [ref=e54]:
+            - heading "Links" [level=3] [ref=e55]
+            - generic [ref=e56]:
+              - button "URL Link to any website with optional UTM tracking" [active] [pressed] [ref=e57]:
+                - img [ref=e59]
+                - generic [ref=e62]: URL
+                - generic [ref=e63]: Link to any website with optional UTM tracking
+              - button "Text Plain text message or note" [ref=e64]:
+                - img [ref=e66]
+                - generic [ref=e68]: Text
+                - generic [ref=e69]: Plain text message or note
+              - button "WhatsApp Open a WhatsApp chat with pre-filled message" [ref=e70]:
+                - img [ref=e72]
+                - generic [ref=e74]: WhatsApp
+                - generic [ref=e75]: Open a WhatsApp chat with pre-filled message
+              - button "Social Media Hub linking to multiple social profiles" [ref=e76]:
+                - img [ref=e78]
+                - generic [ref=e84]: Social Media
+                - generic [ref=e85]: Hub linking to multiple social profiles
+              - button "App Store Smart link to iOS and Android app stores" [ref=e86]:
+                - img [ref=e88]
+                - generic [ref=e90]: App Store
+                - generic [ref=e91]: Smart link to iOS and Android app stores
+          - generic [ref=e92]:
+            - heading "Contact" [level=3] [ref=e93]
+            - generic [ref=e94]:
+              - button "Email Pre-composed email with recipient, subject, and body" [ref=e95]:
+                - img [ref=e97]
+                - generic [ref=e100]: Email
+                - generic [ref=e101]: Pre-composed email with recipient, subject, and body
+              - button "Phone Direct dial a phone number" [ref=e102]:
+                - img [ref=e104]
+                - generic [ref=e106]: Phone
+                - generic [ref=e107]: Direct dial a phone number
+              - button "SMS Pre-filled text message to a phone number" [ref=e108]:
+                - img [ref=e110]
+                - generic [ref=e112]: SMS
+                - generic [ref=e113]: Pre-filled text message to a phone number
+              - button "vCard Full digital business card (vCard 3.0)" [ref=e114]:
+                - img [ref=e116]
+                - generic [ref=e120]: vCard
+                - generic [ref=e121]: Full digital business card (vCard 3.0)
+              - button "MeCard Compact contact card (MeCard format)" [ref=e122]:
+                - img [ref=e124]
+                - generic [ref=e128]: MeCard
+                - generic [ref=e129]: Compact contact card (MeCard format)
+          - generic [ref=e130]:
+            - heading "Data" [level=3] [ref=e131]
+            - generic [ref=e132]:
+              - button "WiFi Auto-connect to a WiFi network" [ref=e133]:
+                - img [ref=e135]
+                - generic [ref=e139]: WiFi
+                - generic [ref=e140]: Auto-connect to a WiFi network
+              - button "Calendar Event Add an event to the calendar" [ref=e141]:
+                - img [ref=e143]
+                - generic [ref=e145]: Calendar Event
+                - generic [ref=e146]: Add an event to the calendar
+              - button "Location Geographic coordinates with an optional label" [ref=e147]:
+                - img [ref=e149]
+                - generic [ref=e152]: Location
+                - generic [ref=e153]: Geographic coordinates with an optional label
+          - generic [ref=e154]:
+            - heading "Payment" [level=3] [ref=e155]
+            - generic [ref=e156]:
+              - button "Crypto Bitcoin, Ethereum, or Litecoin payment address" [ref=e157]:
+                - img [ref=e159]
+                - generic [ref=e161]: Crypto
+                - generic [ref=e162]: Bitcoin, Ethereum, or Litecoin payment address
+              - button "EPC / SEPA European SEPA bank transfer (EPC069-12)" [ref=e163]:
+                - img [ref=e165]
+                - generic [ref=e167]: EPC / SEPA
+                - generic [ref=e168]: European SEPA bank transfer (EPC069-12)
+        - button "Next" [ref=e170]:
+          - text: Next
+          - img [ref=e171]
+    - complementary "QR code preview" [ref=e173]:
+      - heading "Preview" [level=3] [ref=e174]
+      - generic [ref=e175]:
+        - img [ref=e176]
+        - paragraph [ref=e182]: Enter data to preview your QR code
+      - paragraph [ref=e183]: QR code preview updates in real time.
+  - contentinfo [ref=e184]:
+    - generic [ref=e185]:
+      - paragraph [ref=e186]: © 2026 QR Code Generator
+      - navigation "Footer links" [ref=e187]:
+        - link "GitHub" [ref=e188] [cursor=pointer]:
+          - /url: https://github.com/h3nryza/qr_generator
+          - text: GitHub
+          - img [ref=e189]
+        - link "License" [ref=e193] [cursor=pointer]:
+          - /url: https://github.com/h3nryza/qr_generator/blob/main/LICENSE
+          - text: License
+          - img [ref=e194]
+```
